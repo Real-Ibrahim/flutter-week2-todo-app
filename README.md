@@ -1,6 +1,6 @@
-# todo_app
+# flutter-week2-todo-app
 
-A new Flutter project.
+A new Flutter project for Week 2.
 
 ## Getting Started
 
