@@ -7,13 +7,14 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Counter App',
       theme: ThemeData(
-        primaryColor: Color(0xFF4A90E2),
+        primaryColor: Color.fromARGB(255, 14, 236, 176),
         scaffoldBackgroundColor: Color(0xFFF4F6F8),
         textTheme: TextTheme(
           bodyMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
@@ -68,7 +69,7 @@ class _CounterScreenState extends State<CounterScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Counter', style: TextStyle(fontWeight: FontWeight.w600)),
-        backgroundColor: Color(0xFF4A90E2),
+        backgroundColor: Color.fromARGB(255, 18, 253, 178),
         elevation: 2,
       ),
       body: SafeArea(
